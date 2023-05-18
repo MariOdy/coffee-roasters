@@ -4,6 +4,7 @@
 
 body{
   background-color: var(--bg);
-  width: 92%;
+  width: 86%;
+  max-width: 1366px;
   margin: 0 auto;
 }
