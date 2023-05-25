@@ -12,7 +12,7 @@ export interface ICoffeeCollection {
   description: string;
 }
 
-export const coffeeCollection = [
+export const coffeeCollection: ICoffeeCollection[] = [
   {
     id: "1",
     img: GranEspresso,
