@@ -4,6 +4,7 @@ import "./globals.css";
 import "@/styles/colors.css";
 import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={montserrat.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,0 +1,21 @@
+.footer_wrapper {
+  width: 100%;
+  background-color: var(--dark-grey-blue);
+  padding: 40px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+
+  & > div {
+    & svg {
+      color: white;
+      width: 24px;
+      height: auto;
+    }
+  }
+}
