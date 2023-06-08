@@ -67,7 +67,7 @@
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr));
   gap: 4rem;
   position: relative;
-  @media (max-width: 1230px) {
+  @media (max-width: 1236px) {
     display: none;
   }
   & span {
