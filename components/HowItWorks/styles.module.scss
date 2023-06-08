@@ -1,7 +1,7 @@
 .howitworks_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 60px;
   padding: 40px;
   margin-top: 100px;
   & > h5 {
@@ -67,7 +67,7 @@
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr));
   gap: 4rem;
   position: relative;
-  @media (max-width: 1236px) {
+  @media (max-width: 1253px) {
     display: none;
   }
   & span {
