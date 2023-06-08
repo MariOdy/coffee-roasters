@@ -1,6 +1,7 @@
-import Collection from "@/components/Collection";
 import Hero from "@/components/Hero";
 import WhyUs from "@/components/WhyUs";
+import HowItWorks from "@/components/HowItWorks";
+import Collection from "@/components/Collection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Collection />
       <WhyUs />
+      <HowItWorks />
     </main>
   );
 }
