@@ -1,0 +1,41 @@
+.commitment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+
+  & img {
+    max-width: 445px;
+    height: auto;
+    border-radius: 12px;
+  }
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 50%;
+
+    & h3 {
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    &p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    align-items: center;
+    text-align: center;
+    & div {
+      max-width: 100%;
+    }
+  }
+}

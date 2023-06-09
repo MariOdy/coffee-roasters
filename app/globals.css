@@ -7,4 +7,5 @@ body{
   width: 86%;
   max-width: 1366px;
   margin: 0 auto;
+  color: var(--dark-grey-blue);
 }

@@ -15,7 +15,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr));
   gap: 4rem;
-  color: var(--dark-grey-blue);
   & li {
     display: flex;
     flex-direction: column;
