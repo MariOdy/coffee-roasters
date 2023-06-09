@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
     <div className={styles.hero_wrapper}>
       <Image src={HeroHome} alt="Coffee with kettle on table" fill priority />
       <div>
-        <h2 className={fraunces.className}>Great coffee made simple.</h2>
+        <h1 className={fraunces.className}>Great coffee made simple.</h1>
         <p>
           Start your mornings with the world&apos;s best coffees. Try our
           expertly curated artisan coffees from our best roasters delivered
