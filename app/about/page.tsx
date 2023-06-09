@@ -4,6 +4,7 @@ import PageBanner from "@/components/PageBanner";
 
 import styles from "./styles.module.scss";
 import { fraunces } from "../layout";
+import Quality from "@/components/Quality";
 
 const AboutPage = () => {
   return (
@@ -31,6 +32,7 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
+      <Quality />
     </div>
   );
 };
