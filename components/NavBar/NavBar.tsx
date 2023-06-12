@@ -12,7 +12,7 @@ const NavBar: React.FC = () => {
       <Link href="/about" aria-label="To About page">
         About Us
       </Link>
-      <Link href="/createPlan" aria-label="To Create your plan page">
+      <Link href="/subscribe" aria-label="To Create your plan page">
         Create your plan
       </Link>
     </nav>
