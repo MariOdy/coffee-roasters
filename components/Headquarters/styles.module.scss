@@ -1,0 +1,41 @@
+.headquarters_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px;
+  padding-bottom: 0;
+
+  & > h5 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--grey);
+  }
+}
+.offices_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr));
+  gap: 4rem;
+
+  & img {
+    height: 100px;
+    width: 70px;
+    object-fit: contain;
+  }
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    & h4 {
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+}

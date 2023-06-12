@@ -1,10 +1,12 @@
 import Image from "next/image";
-import Barista from "@/public/images/barista.png";
+import { fraunces } from "../layout";
+
+import Quality from "@/components/Quality";
 import PageBanner from "@/components/PageBanner";
+import Barista from "@/public/images/barista.png";
+import Headquarters from "@/components/Headquarters";
 
 import styles from "./styles.module.scss";
-import { fraunces } from "../layout";
-import Quality from "@/components/Quality";
 
 const AboutPage = () => {
   return (
@@ -33,6 +35,7 @@ const AboutPage = () => {
         </div>
       </div>
       <Quality />
+      <Headquarters />
     </div>
   );
 };
