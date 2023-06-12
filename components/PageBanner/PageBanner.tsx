@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import AboutBanner from "@/public/about-banner.png";
-import CreatePlanBanner from "@/public/create-plan-banner.png";
+import AboutBanner from "@/public/images/about-banner.png";
+import CreatePlanBanner from "@/public/images/create-plan-banner.png";
 
 import styles from "./styles.module.scss";
 import { fraunces } from "@/app/layout";

@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
-import CoffeeBean from "@/public/coffee-bean.svg";
-import Gift from "@/public/gift.svg";
-import Car from "@/public/car.svg";
+import CoffeeBean from "@/public/svg/coffee-bean.svg";
+import Gift from "@/public/svg/gift.svg";
+import Car from "@/public/svg/car.svg";
 
 export interface IAdvantage {
   id: string;

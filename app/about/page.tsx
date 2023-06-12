@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Barista from "@/public/barista.png";
+import Barista from "@/public/images/barista.png";
 import PageBanner from "@/components/PageBanner";
 
 import styles from "./styles.module.scss";

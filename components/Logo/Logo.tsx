@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LogoDark from "@/public/logo.svg";
-import LogoLight from "@/public/logo-light.svg";
+import LogoDark from "@/public/svg/logo.svg";
+import LogoLight from "@/public/svg/logo-light.svg";
 
 interface LogoProps {
   theme?: "dark" | "light";

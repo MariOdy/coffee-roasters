@@ -1,9 +1,9 @@
 import { StaticImageData } from "next/image";
 
-import Danche from "@/public/danche.png";
-import Picollo from "@/public/picollo.png";
-import Planalto from "@/public/planalto.png";
-import GranEspresso from "@/public/gran-espresso.png";
+import Danche from "@/public/images/danche.png";
+import Picollo from "@/public/images/picollo.png";
+import Planalto from "@/public/images/planalto.png";
+import GranEspresso from "@/public/images/gran-espresso.png";
 
 export interface ICoffeeCollection {
   id: string;

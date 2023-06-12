@@ -1,6 +1,6 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
-import HeroHome from "@/public/hero-home.png";
+import Image from "next/image";
+import HeroHome from "@/public/images/hero-home.png";
 
 import styles from "./styles.module.scss";
 import { fraunces } from "@/app/layout";

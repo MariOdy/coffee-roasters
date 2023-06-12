@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import QualityImg from "@/public/quality.png";
+import QualityImg from "@/public/images/quality.png";
 
 import styles from "./styles.module.scss";
 import { fraunces } from "@/app/layout";

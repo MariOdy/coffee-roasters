@@ -34,4 +34,18 @@
       font-weight: 300;
     }
   }
+
+  @media (max-width: 640px) {
+    & img {
+      object-position: left bottom;
+    }
+    & div {
+      align-items: center;
+      text-align: center;
+      & h1 {
+        font-size: 48px;
+        line-height: 48px;
+      }
+    }
+  }
 }

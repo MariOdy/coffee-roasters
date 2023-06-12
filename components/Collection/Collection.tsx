@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { fraunces } from "@/app/layout";
-import OurCollection from "@/public/our-collection.svg";
+import OurCollection from "@/public/svg/our-collection.svg";
 import { ICoffeeCollection, coffeeCollection } from "./coffeeCollection";
 
 import styles from "./styles.module.scss";
