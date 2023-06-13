@@ -1,9 +1,25 @@
 .howitworks_wrapper {
+  --text-color: var(--dark-grey-blue);
+
+  &[data-theme="dark"] {
+    --text-color: var(--almost-white);
+    background-color: var(--dark-grey-blue);
+    padding: 60px 40px;
+
+    & > h5 {
+      display: none;
+    }
+    & a {
+      display: none;
+    }
+  }
+
   display: flex;
   flex-direction: column;
   gap: 60px;
   padding: 40px;
   margin-top: 100px;
+  border-radius: 12px;
   & > h5 {
     font-weight: 900;
     font-size: 24px;
@@ -29,12 +45,15 @@
       color: var(--pale-orange);
     }
     & div {
+      color: var(--text-color);
       font-weight: 900;
       font-size: 32px;
       line-height: 36px;
       width: 70%;
     }
+
     & p {
+      color: var(--text-color);
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;

@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <Collection />
       <WhyUs />
-      <HowItWorks />
+      <HowItWorks theme="light" />
     </main>
   );
 }

@@ -1,12 +1,20 @@
 import React from "react";
 import stages from "./stages";
-
-import styles from "./styles.module.scss";
 import { fraunces, montserrat } from "@/app/layout";
 
-const HowItWorks: React.FC = () => {
+import styles from "./styles.module.scss";
+import CreatePlanButton from "../buttons/CreatePlanButton";
+
+interface HowitworksProps {
+  theme: "light" | "dark";
+}
+
+const HowItWorks: React.FC<HowitworksProps> = ({ theme }) => {
   return (
-    <div className={`${fraunces.className} ${styles.howitworks_wrapper}`}>
+    <div
+      className={`${fraunces.className} ${styles.howitworks_wrapper}`}
+      data-theme={theme}
+    >
       <h5>How it works</h5>
       <div className={styles.separator}>
         <span />
@@ -23,6 +31,7 @@ const HowItWorks: React.FC = () => {
           </li>
         ))}
       </ul>
+      <CreatePlanButton />
     </div>
   );
 };

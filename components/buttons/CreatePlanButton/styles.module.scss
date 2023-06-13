@@ -1,0 +1,20 @@
+.createPlan_btn {
+  background-color: var(--dark-cyan);
+  color: var(--almost-white);
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 16px 32px;
+  max-width: fit-content;
+
+  transition-property: background, scale;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--active-btn);
+  }
+  &:active {
+    scale: 0.98;
+  }
+}

@@ -1,8 +1,9 @@
 :root {
     --dark-cyan: #0E8784;
+    --active-btn: #66D2CF;
     --dark-grey-blue: #333D4B;
     --pale-orange: #FDD6BA;
-    --bg: #FEFCF7;
+    --almost-white: #FEFCF7;
     --grey: #83888F;
     --font: #FEFCF7
   }

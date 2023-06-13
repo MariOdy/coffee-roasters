@@ -4,6 +4,7 @@ import HeroHome from "@/public/images/hero-home.png";
 
 import styles from "./styles.module.scss";
 import { fraunces } from "@/app/layout";
+import CreatePlanButton from "../buttons/CreatePlanButton";
 
 const Hero: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Hero: React.FC = () => {
           expertly curated artisan coffees from our best roasters delivered
           directly to your door, at your schedule.
         </p>
-        <button>create your plan</button>
+        <CreatePlanButton />
       </div>
     </div>
   );

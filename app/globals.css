@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 body{
-  background-color: var(--bg);
+  background-color: var(--almost-white);
   width: 86%;
   max-width: 1366px;
   margin: 0 auto;
   color: var(--dark-grey-blue);
+}
+
+*,
+*::before,
+*::after {
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-property: none;
 }
