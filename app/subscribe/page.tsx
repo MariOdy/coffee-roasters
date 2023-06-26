@@ -2,6 +2,7 @@ import PageBanner from "@/components/PageBanner";
 import HowItWorks from "@/components/HowItWorks";
 
 import styles from "./styles.module.css";
+import CreatePlanForm from "@/components/CreatePlanForm";
 
 const SubscribePage = () => {
   return (
@@ -11,6 +12,7 @@ const SubscribePage = () => {
         pageDescription="Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality."
       />
       <HowItWorks theme="dark" />
+      <CreatePlanForm />
     </div>
   );
 };

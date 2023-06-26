@@ -1,0 +1,114 @@
+.form_wrapper {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.opt_labels {
+  & > button {
+    max-width: 255px;
+    width: 100%;
+    padding: 24px 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(131, 136, 143, 0.25);
+    border-bottom: 1px solid rgba(131, 136, 143, 0.25);
+
+    display: flex;
+    gap: 12px;
+    transition-property: color, scale;
+
+    &:hover,
+    &:focus-visible {
+      color: rgba(131, 136, 143, 0.75);
+    }
+    &:active {
+      scale: 0.99;
+    }
+  }
+
+  & > button[data-state="checked"] {
+    color: var(--dark-blue);
+    & span {
+      color: var(--dark-cyan);
+    }
+  }
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  & > div > button {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--grey);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    & svg {
+      width: 18px;
+      height: auto;
+      color: var(--dark-cyan);
+      transition-property: rotate;
+    }
+    &[data-state="open"] > svg {
+      rotate: 180deg;
+    }
+  }
+}
+
+.option_cards {
+  & > div {
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.card_wrapper {
+  min-height: 250px;
+  max-width: 228px;
+  padding: 28px;
+  border-radius: 8px;
+  background-color: var(--card-bg);
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition-property: background, scale;
+
+  &:focus-visible,
+  &:hover {
+    background-color: var(--pale-orange);
+  }
+  &:active {
+    scale: 0.99;
+  }
+
+  & h6 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  & p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.card_wrapper[data-state="checked"] {
+  background-color: var(--dark-cyan);
+  color: var(--font);
+}

@@ -1,9 +1,9 @@
 .howitworks_wrapper {
-  --text-color: var(--dark-grey-blue);
+  --text-color: var(--dark-blue);
 
   &[data-theme="dark"] {
-    --text-color: var(--almost-white);
-    background-color: var(--dark-grey-blue);
+    --text-color: var(--font);
+    background-color: var(--dark-blue);
     padding: 60px 40px;
 
     & > h5 {

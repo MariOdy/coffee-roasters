@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body{
-  background-color: var(--almost-white);
+  background-color: #FEFCF7;
   width: 86%;
   max-width: 1366px;
   margin: 0 auto;
-  color: var(--dark-grey-blue);
+  color: var(--dark-blue);
 }
 
 *,

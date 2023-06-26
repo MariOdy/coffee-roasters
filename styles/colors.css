@@ -1,9 +1,9 @@
 :root {
     --dark-cyan: #0E8784;
     --active-btn: #66D2CF;
-    --dark-grey-blue: #333D4B;
+    --dark-blue: #333D4B;
     --pale-orange: #FDD6BA;
-    --almost-white: #FEFCF7;
+    --font: #FEFCF7;
     --grey: #83888F;
-    --font: #FEFCF7
+    --card-bg:#F4F1EB;
   }
