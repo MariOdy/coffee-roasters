@@ -36,7 +36,7 @@
   margin-bottom: -20%;
   padding: 0 40px;
 
-  & div {
+  & > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@
       margin-bottom: 20px;
     }
 
-    & h5 {
+    & > div {
       font-weight: 700;
       font-size: 20px;
       line-height: 28px;

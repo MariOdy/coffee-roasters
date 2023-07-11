@@ -17,13 +17,25 @@ const Footer: React.FC = () => {
       <Logo theme="dark" />
       <NavBar />
       <div className="flex items-center gap-4">
-        <Link href="https://www.facebook.com/" target="_blank">
+        <Link
+          href="https://www.facebook.com/"
+          target="_blank"
+          aria-label="Go to Facebook"
+        >
           <AiFillFacebook />
         </Link>
-        <Link href="https://twitter.com/" target="_blank">
+        <Link
+          href="https://twitter.com/"
+          target="_blank"
+          aria-label="Go to Twitter"
+        >
           <AiOutlineTwitter />
         </Link>
-        <Link href="https://www.instagram.com/" target="_blank">
+        <Link
+          href="https://www.instagram.com/"
+          target="_blank"
+          aria-label="Go to Instagram"
+        >
           <AiOutlineInstagram />
         </Link>
       </div>

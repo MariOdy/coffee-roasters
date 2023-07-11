@@ -20,7 +20,7 @@ const WhyUs: React.FC = () => {
         {advantages.map((adv) => (
           <div key={adv.id}>
             <Image src={adv.img} alt={adv.name} />
-            <h5 className={fraunces.className}>{adv.name}</h5>
+            <div className={fraunces.className}>{adv.name}</div>
             <p>{adv.description}</p>
           </div>
         ))}
