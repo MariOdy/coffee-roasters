@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 4rem;
+  position: relative;
 
   & > div {
     display: flex;
@@ -111,4 +112,26 @@
 .card_wrapper[data-state="checked"] {
   background-color: var(--dark-cyan);
   color: var(--font);
+}
+
+.summary_wrapper {
+  color: var(--font);
+  background-color: var(--dark-blue);
+  padding: 40px 64px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  & > div {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  & > p {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+  }
 }

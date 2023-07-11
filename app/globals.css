@@ -4,10 +4,13 @@
 
 body{
   background-color: #FEFCF7;
+  
+  color: var(--dark-blue);
+}
+.content{
   width: 86%;
   max-width: 1366px;
   margin: 0 auto;
-  color: var(--dark-blue);
 }
 
 *,

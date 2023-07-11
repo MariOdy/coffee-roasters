@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { fraunces } from "@/app/layout";
 
-import styles from "./styles.module.scss";
+import styles from "../styles.module.scss";
 
 const CreatePlanButton = () => {
   return (

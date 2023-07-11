@@ -130,14 +130,14 @@ const coffeeOptions: CoffeeOption[] = [
       {
         id: "51",
         label: "Every week",
-        description: "$7.20 per shipment. Includes free first-class shipping.",
-        price: 7.2,
+        description: "$7 per shipment. Includes free first-class shipping.",
+        price: 7,
       },
       {
         id: "52",
         label: "Every 2 weeks",
-        description: "$9.60 per shipment. Includes free priority shipping.",
-        price: 9.6,
+        description: "$9 per shipment. Includes free priority shipping.",
+        price: 9,
       },
       {
         id: "53",

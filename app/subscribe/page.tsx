@@ -1,7 +1,5 @@
 import PageBanner from "@/components/PageBanner";
 import HowItWorks from "@/components/HowItWorks";
-
-import styles from "./styles.module.css";
 import CreatePlanForm from "@/components/CreatePlanForm";
 
 const SubscribePage = () => {

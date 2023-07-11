@@ -1,0 +1,146 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.content {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+    hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 500px;
+  max-height: 85vh;
+  opacity: 1;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+.done_btn {
+  padding: 12px 24px;
+  background-color: var(--dark-cyan);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  border-radius: 4px;
+
+  transition-property: background, scale;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--active-btn);
+  }
+  &:active {
+    scale: 0.98;
+  }
+}
+.exiting .overlay {
+  opacity: 0;
+}
+
+.exiting .content {
+  transform: translate(-50%, -150%);
+}
+
+.title {
+  padding: 40px;
+  background-color: var(--dark-blue);
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+.cancel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--grey);
+}
+.description {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  & > div {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    color: var(--grey);
+  }
+  & > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.success_description {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+
+  & > p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+}
+
+.total {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+
+  & button {
+    padding: 16px 24px;
+    background-color: var(--dark-cyan);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+}
+
+// @keyframes overlayShow {
+//   from {
+//     opacity: 0;
+//   }
+//   to {
+//     opacity: 1;
+//   }
+// }
+
+// @keyframes contentShow {
+//   from {
+//     opacity: 0;
+//     transform: translate(-50%, -48%) scale(0.96);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: translate(-50%, -50%) scale(1);
+//   }
+// }
