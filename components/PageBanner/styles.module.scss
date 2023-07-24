@@ -8,6 +8,7 @@
   align-items: center;
   padding: 40px;
   color: var(--font);
+
   & img {
     position: absolute;
     z-index: 0;
@@ -37,6 +38,7 @@
   }
 
   @media (max-width: 640px) {
+    padding: 40px20px;
     & img {
       object-position: left bottom;
     }
@@ -46,6 +48,9 @@
       & h1 {
         font-size: 48px;
         line-height: 48px;
+      }
+      & p {
+        width: 100%;
       }
     }
   }
