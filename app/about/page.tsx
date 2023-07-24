@@ -16,8 +16,11 @@ const AboutPage = () => {
         pageDescription="Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment."
       />
       <div className={styles.commitment}>
-        <Image src={Barista} alt="Barista making coffee" />
-        <div>
+        <div className={styles.commitment_img}>
+          <Image src={Barista} alt="Barista making coffee" />
+        </div>
+
+        <div className={styles.commitment_info}>
           <h3 className={fraunces.className}>Our commitment</h3>
           <p>
             We`re built on a simple mission and a commitment to doing good along
