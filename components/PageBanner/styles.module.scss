@@ -19,11 +19,11 @@
     position: relative;
     z-index: 1;
     max-width: 560px;
-    color: var(--font);
 
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: var(--font);
 
     & h1 {
       font-size: 72px;
@@ -38,7 +38,7 @@
   }
 
   @media (max-width: 640px) {
-    padding: 40px20px;
+    padding: 40px 20px;
     & img {
       object-position: left bottom;
     }
