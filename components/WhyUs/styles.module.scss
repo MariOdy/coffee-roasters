@@ -48,6 +48,9 @@
     max-width: 350px;
     padding: 20px;
     border-radius: 12px;
+    @media (max-width: 930px) {
+      min-width: 100%;
+    }
     & img {
       margin-bottom: 20px;
     }
