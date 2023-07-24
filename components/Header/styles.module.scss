@@ -3,6 +3,29 @@
   align-items: center;
   justify-content: space-between;
   margin: 32px 0;
+
+  & > button {
+    display: none;
+  }
+}
+.nav_bar {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 32px;
+  text-transform: uppercase;
+  color: var(--grey);
+  flex-wrap: wrap;
 }
 
-
+@media (max-width: 720px) {
+  .nav_bar {
+    display: none;
+  }
+  .header_wrapper {
+    & > button {
+      display: block;
+    }
+  }
+}

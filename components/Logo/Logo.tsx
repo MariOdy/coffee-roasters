@@ -11,7 +11,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ theme }) => {
   const logoImg = theme === "light" ? LogoDark : LogoLight;
   return (
-    <Link href="#" aria-label="To Homepage">
+    <Link href="/#" aria-label="To Homepage">
       <Image src={logoImg} alt="logo" />
     </Link>
   );

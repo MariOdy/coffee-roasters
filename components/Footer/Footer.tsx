@@ -5,9 +5,8 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import Link from "next/link";
-
+import { navigation } from "../Header/Header";
 import Logo from "../Logo";
-import NavBar from "../NavBar";
 
 import styles from "./styles.module.scss";
 
@@ -15,7 +14,13 @@ const Footer: React.FC = () => {
   return (
     <footer className={styles.footer_wrapper}>
       <Logo theme="dark" />
-      <NavBar />
+      <nav className={styles.nav_bar}>
+        {navigation.map(({ id, name, pathTo, label }) => (
+          <Link key={id} href={pathTo} aria-label={label}>
+            {name}
+          </Link>
+        ))}
+      </nav>
       <div className="flex items-center gap-4">
         <Link
           href="https://www.facebook.com/"
