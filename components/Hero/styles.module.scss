@@ -27,7 +27,7 @@
     & h1 {
       font-size: 72px;
       line-height: 72px;
-      font-weight: 600;
+      font-weight: 800;
     }
     & p {
       width: 80%;
@@ -39,6 +39,23 @@
       padding: 8px 24px;
       background-color: var(--dark-cyan);
       border-radius: 12px;
+    }
+  }
+}
+@media (max-width: 640px) {
+  .hero_wrapper {
+    padding: 40px 20px;
+    & div {
+      align-items: center;
+      max-width: 100%;
+      text-align: center;
+      & h1 {
+        font-size: 40px;
+        line-height: 40px;
+      }
+      & p {
+        width: 100%;
+      }
     }
   }
 }
