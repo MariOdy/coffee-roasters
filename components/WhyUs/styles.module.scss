@@ -30,6 +30,7 @@
 
 .advantages_wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   gap: 28px;
@@ -61,5 +62,25 @@
       font-size: 16px;
       line-height: 26px;
     }
+  }
+}
+
+@media (max-width: 425px) {
+  .why_us {
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  .why_info {
+    & h3 {
+      font-size: 28px;
+      line-height: 28px;
+    }
+    & p {
+      width: 100%;
+    }
+  }
+  .advantages_wrapper {
+    padding: 0;
+    margin-bottom: -40%;
   }
 }
