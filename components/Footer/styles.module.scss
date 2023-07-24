@@ -29,3 +29,13 @@
   color: var(--grey);
   flex-wrap: wrap;
 }
+
+@media (max-width: 930px) {
+  .footer_wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .nav_bar {
+    flex-direction: column;
+  }
+}
