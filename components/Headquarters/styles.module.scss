@@ -4,6 +4,9 @@
   gap: 60px;
   padding: 40px;
   padding-bottom: 0;
+  @media (max-width: 830px) {
+    align-items: center;
+  }
 
   & > h5 {
     font-weight: 900;
@@ -22,20 +25,33 @@
     width: 70px;
     object-fit: contain;
   }
+}
+.office {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 
-  & > div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  & h4 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  & div {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-
+    gap: 8px;
+  }
+  @media (max-width: 830px) {
+    align-items: center;
     & h4 {
-      font-weight: 900;
-      font-size: 32px;
-      line-height: 36px;
+      font-size: 28px;
+    }
+    & div {
+      align-items: center;
     }
   }
 }
