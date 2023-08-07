@@ -32,7 +32,8 @@ const SuccessDialog: React.FC<SuccessDialogProps> = ({ ...props }) => {
           className={`${styles.content} ${isExiting ? styles.exiting : ""}`}
         >
           <AlertDialog.Description className={styles.success_description}>
-            <p>Thank you for choosing CoffeeRoasters!</p>
+            <p>Thank you for order!</p>
+
             <AlertDialog.Action>
               <button
                 type="button"

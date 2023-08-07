@@ -59,6 +59,13 @@
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
+  position: relative;
+
+  @media (max-width: 640px) {
+    padding: 24px 28px;
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 .cancel {
   position: absolute;
@@ -71,12 +78,18 @@
   font-weight: 700;
   line-height: 32px;
   color: var(--grey);
+  @media (max-width: 640px) {
+    top: 28px;
+  }
 }
 .description {
   padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  @media (max-width: 640px) {
+    padding: 24px 28px;
+  }
 
   & > div {
     font-size: 24px;
@@ -94,13 +107,18 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  align-items: center;
+  gap: 16px;
   text-align: center;
 
   & > p {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 32px;
+    @media (max-width: 640px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
   }
 }
 
@@ -113,6 +131,14 @@
   font-size: 32px;
   font-weight: 900;
   line-height: 36px;
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    & button {
+      width: 100%;
+    }
+  }
 
   & button {
     padding: 16px 24px;
@@ -124,23 +150,3 @@
     border-radius: 4px;
   }
 }
-
-// @keyframes overlayShow {
-//   from {
-//     opacity: 0;
-//   }
-//   to {
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes contentShow {
-//   from {
-//     opacity: 0;
-//     transform: translate(-50%, -48%) scale(0.96);
-//   }
-//   to {
-//     opacity: 1;
-//     transform: translate(-50%, -50%) scale(1);
-//   }
-// }
