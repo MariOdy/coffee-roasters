@@ -36,12 +36,16 @@
       font-weight: 300;
     }
   }
-
+  @media (max-width: 750px) {
+    min-height: 460px;
+    & img {
+      object-position: 60% 40%;
+      filter: brightness(40%);
+    }
+  }
   @media (max-width: 640px) {
     padding: 40px 20px;
-    & img {
-      object-position: left bottom;
-    }
+
     & div {
       align-items: center;
       text-align: center;

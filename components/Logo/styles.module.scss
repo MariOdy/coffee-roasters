@@ -1,0 +1,10 @@
+.logo_wrapper {
+  transition-property: scale;
+  &:hover,
+  &:focus-visible {
+    scale: 1.01;
+  }
+  &:active {
+    scale: 0.98;
+  }
+}

@@ -4,7 +4,7 @@ import CreatePlanForm from "@/components/CreatePlanForm";
 
 const SubscribePage = () => {
   return (
-    <div className="flex flex-col gap-12 ">
+    <div className="flex flex-col gap-12">
       <PageBanner
         pageTitle="Create plan"
         pageDescription="Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality."

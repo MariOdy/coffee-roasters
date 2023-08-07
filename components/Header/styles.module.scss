@@ -16,6 +16,19 @@
   text-transform: uppercase;
   color: var(--grey);
   flex-wrap: wrap;
+
+  & a {
+    transition-property: color, scale, font;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--dark-blue);
+      font-weight: 700;
+    }
+    &:active {
+      scale: 0.98;
+    }
+  }
 }
 
 @media (max-width: 720px) {
