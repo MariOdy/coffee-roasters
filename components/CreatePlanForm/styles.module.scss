@@ -1,16 +1,18 @@
 .form_wrapper {
   padding: 40px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 4rem;
+  display: flex;
+  gap: 40px;
   position: relative;
-
-  & > div {
-    display: flex;
-    flex-direction: column;
-  }
 }
 .opt_labels {
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1040px) {
+    display: none;
+  }
+
   & > button {
     max-width: 255px;
     width: 100%;
@@ -51,11 +53,17 @@
     font-size: 32px;
     line-height: 40px;
     color: var(--grey);
+    text-align: left;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    @media (max-width: 750px) {
+      font-size: 24px;
+
+      line-height: 28px;
+    }
 
     & svg {
       width: 18px;
@@ -75,6 +83,12 @@
     padding: 40px 0;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
+
+    @media (max-width: 750px) {
+      flex-direction: column;
+      padding: 20px 0;
+    }
   }
 }
 .card_wrapper {
@@ -89,6 +103,12 @@
   flex-direction: column;
   gap: 20px;
   transition-property: background, scale;
+
+  @media (max-width: 750px) {
+    min-width: 100%;
+    min-height: fit-content;
+    gap: 12px;
+  }
 
   &:focus-visible,
   &:hover {
@@ -122,6 +142,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  @media (max-width: 750px) {
+    padding: 32px 28px;
+  }
 
   & > div {
     font-size: 16px;
@@ -133,5 +156,12 @@
     font-size: 24px;
     font-weight: 800;
     line-height: 40px;
+  }
+}
+
+@media (max-width: 930px) {
+  .form_wrapper {
+    flex-direction: column;
+    padding: 0;
   }
 }

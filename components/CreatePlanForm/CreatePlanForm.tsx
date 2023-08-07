@@ -46,7 +46,7 @@ const CreatePlanForm: React.FC = () => {
           </RadioGroup.Item>
         ))}
       </RadioGroup.Root>
-      <div className="gap-12">
+      <div className="gap-12 flex flex-col">
         <Accordion.Root
           className={styles.options}
           value={active}
