@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
+import Logo from "../Logo";
 import Link from "next/link";
-import * as Dialog from "@radix-ui/react-dialog";
+import { fraunces } from "@/app/layout";
 import { BiMenu, BiX } from "react-icons/bi";
+import * as Dialog from "@radix-ui/react-dialog";
 
 import styles from "./styles.module.scss";
-import { fraunces } from "@/app/layout";
-import Logo from "../Logo";
 
 interface DropdownMenuBarProps {
   links: {

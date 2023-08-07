@@ -3,7 +3,7 @@ import { fraunces } from "../layout";
 
 import Quality from "@/components/Quality";
 import PageBanner from "@/components/PageBanner";
-import Barista from "@/public/images/barista.png";
+import Barista from "@/public/images/Barista.png";
 import Headquarters from "@/components/Headquarters";
 
 import styles from "./styles.module.scss";
