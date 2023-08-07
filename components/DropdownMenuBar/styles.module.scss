@@ -1,0 +1,73 @@
+.trigger {
+  color: var(--dark-blue);
+  transition-property: color, scale;
+  outline: none;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--dark-cyan);
+  }
+  &:active {
+    scale: 0.98;
+  }
+
+  & svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.dialog_content {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  position: fixed;
+  z-index: 11;
+  background: linear-gradient(
+    180deg,
+    #fefcf7 25%,
+    rgba(254, 252, 247, 0.94) 44.66%,
+    rgba(254, 252, 247, 0.58) 100%
+  );
+  inset: 0;
+
+  min-width: 100%;
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  & a {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: var(--dark-blue);
+    transition-property: color, scale;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--dark-cyan);
+    }
+    &:active {
+      scale: 0.98;
+    }
+  }
+}
+.header_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  & > button {
+    margin-right: 12px;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
