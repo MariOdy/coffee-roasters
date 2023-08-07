@@ -4,7 +4,7 @@ import AboutBanner from "@/public/images/about-banner.png";
 import CreatePlanBanner from "@/public/images/create-plan-banner.png";
 
 import styles from "./styles.module.scss";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 import CreatePlanButton from "../buttons/CreatePlanButton";
 
 interface PageBannerProps {

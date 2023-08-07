@@ -3,7 +3,7 @@ import Image from "next/image";
 import QualityImg from "@/public/images/quality.png";
 
 import styles from "./styles.module.scss";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 
 const Quality: React.FC = () => {
   return (

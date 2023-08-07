@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./styles.module.scss";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 import offices from "./offices";
 import Image from "next/image";
 

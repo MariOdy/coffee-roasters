@@ -2,22 +2,14 @@ import Header from "@/components/Header";
 
 import "./globals.css";
 import "@/styles/colors.css";
-import localFont from "next/font/local";
-import { Montserrat } from "next/font/google";
+
 import Footer from "@/components/Footer";
+import { montserrat } from "@/utils/fonts";
 
 export const metadata = {
   title: "Coffee Roasters",
   description: "Create your coffee plan with Coffee Roasters",
 };
-export const fraunces = localFont({
-  src: "./Fraunces.ttf",
-  display: "swap",
-});
-export const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export default function RootLayout({
   children,

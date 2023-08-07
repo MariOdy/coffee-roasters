@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 
 import styles from "../styles.module.scss";
 

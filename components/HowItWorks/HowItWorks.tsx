@@ -1,9 +1,9 @@
 import React from "react";
 import stages from "./stages";
-import { fraunces, montserrat } from "@/app/layout";
+import { fraunces, montserrat } from "@/utils/fonts";
+import CreatePlanButton from "../buttons/CreatePlanButton";
 
 import styles from "./styles.module.scss";
-import CreatePlanButton from "../buttons/CreatePlanButton";
 
 interface HowitworksProps {
   theme: "light" | "dark";

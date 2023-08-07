@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 import OurCollection from "@/public/svg/our-collection.svg";
 import { ICoffeeCollection, coffeeCollection } from "./coffeeCollection";
 

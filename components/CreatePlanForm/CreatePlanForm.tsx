@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 import OrderSummary from "./OrderSummary";
 import coffeeOptions from "./coffeeOptions";
 import { FaChevronDown } from "react-icons/fa";

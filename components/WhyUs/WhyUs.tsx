@@ -1,6 +1,5 @@
 import React from "react";
-import { fraunces } from "@/app/layout";
-
+import { fraunces } from "@/utils/fonts";
 import styles from "./styles.module.scss";
 import { advantages } from "./advantages";
 import Image from "next/image";

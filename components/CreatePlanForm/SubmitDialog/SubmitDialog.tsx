@@ -2,7 +2,7 @@
 import React from "react";
 import { HiXMark } from "react-icons/hi2";
 import { Blank } from "../OrderSummary";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 import coffeeOptions from "../coffeeOptions";
 import * as AlertDialog from "@radix-ui/react-alert-dialog";
 

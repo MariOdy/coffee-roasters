@@ -3,7 +3,7 @@
 import React from "react";
 import Logo from "../Logo";
 import Link from "next/link";
-import { fraunces } from "@/app/layout";
+import { fraunces } from "@/utils/fonts";
 import { BiMenu, BiX } from "react-icons/bi";
 import * as Dialog from "@radix-ui/react-dialog";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { fraunces } from "../layout";
 
+import { fraunces } from "@/utils/fonts";
 import Quality from "@/components/Quality";
 import PageBanner from "@/components/PageBanner";
 import Barista from "@/public/images/Barista.png";
